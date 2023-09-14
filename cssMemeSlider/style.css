@@ -153,6 +153,7 @@ body {
 @media screen and (max-width: 990px){
   .text-nav-container {
     flex-direction: column-reverse;
+    gap: 1.2rem;
   }
 
 
@@ -165,6 +166,9 @@ body {
 }
 
 @media screen and (max-width: 587px) {
+  .text-nav-container {
+    gap: 1.2rem;
+  }
 
   .dots {
     justify-content: center;
